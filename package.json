@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "SPA routing",
   "main": "index.js",
-  "homepage": "react--vinyl-shop",
+  "homepage": "react--vinyl-store",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
