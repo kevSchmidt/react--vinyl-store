@@ -1,6 +1,9 @@
-# Vinyl Shop
+# Vinyl Shop Store
 
-## structure
+![](./img/preview.png)
+![](./img/preview2.png)
+
+## Structure
 
 ```
 Project
@@ -26,9 +29,10 @@ Project
       |        └─── product
       └─── scss
       └─── data.json
-  
-               
-``` 
+
+
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
