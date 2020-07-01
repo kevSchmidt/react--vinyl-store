@@ -1,0 +1,47 @@
+.product-info {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #4a3f35;
+
+  &__card {
+    padding: 0 2.5rem;
+    width: 75rem;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: #eee;
+
+    &--title {
+      margin: 1rem auto 2.5rem;
+      font-size: 3rem;
+    }
+
+    &--price {
+      font-size: 1.5rem;
+    }
+
+    &--quality {
+      font-size: 1.5rem;
+    }
+
+    &--inventory {
+      font-style: italic;
+    }
+
+    &--poster {
+      width: 30rem;
+      border-radius: 5px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+    }
+  }
+}
+
+.Tilt {
+  margin: 2.5rem auto;
+  width: 30rem;
+  height: 30rem;
+}
