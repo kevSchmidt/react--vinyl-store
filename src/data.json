@@ -16,6 +16,7 @@
     "albumArtist": "Supertramp",
     "albumYear": 1977,
     "albumImg": "./images/supertramp.JPG",
+    "albumImg2": "../images/supertramp.JPG",
     "price": 11.95,
     "inventory": 4,
     "shape": "Damaged"
@@ -26,6 +27,7 @@
     "albumArtist": "Dire straits",
     "albumYear": 1982,
     "albumImg": "./images/dire-straits.JPG",
+    "albumImg2": "../images/dire-straits.JPG",
     "price": 15.78,
     "inventory": 1,
     "shape": "Medium"
@@ -36,6 +38,7 @@
     "albumArtist": "Fleetwood mac",
     "albumYear": 1977,
     "albumImg": "./images/fleetwood-mac.JPG",
+    "albumImg2": "../images/fleetwood-mac.JPG",
     "price": 19.85,
     "inventory": 5,
     "shape": "Good"
@@ -46,6 +49,7 @@
     "albumArtist": "Nirvana",
     "albumYear": 1991,
     "albumImg": "./images/nirvana.JPG",
+    "albumImg2": "../images/nirvana.JPG",
     "price": 18.07,
     "inventory": 8,
     "shape": "Good"
@@ -56,6 +60,7 @@
     "albumArtist": "Pixies",
     "albumYear": 1988,
     "albumImg": "./images/pixies.JPG",
+    "albumImg2": "../images/pixies.JPG",
     "price": 21.18,
     "inventory": 4,
     "shape": "Good"
@@ -66,6 +71,7 @@
     "albumArtist": "The doors",
     "albumYear": 1970,
     "albumImg": "./images/the-doors.JPG",
+    "albumImg2": "../images/the-doors.JPG",
     "price": 10.99,
     "inventory": 3,
     "shape": "Damaged"
@@ -76,6 +82,7 @@
     "albumArtist": "Keith jarrett",
     "albumYear": 1975,
     "albumImg": "./images/keit-jarreth.JPG",
+    "albumImg2": "../images/keit-jarreth.JPG",
     "price": 14.56,
     "inventory": 1,
     "shape": "Medium"
@@ -86,6 +93,7 @@
     "albumArtist": "The velvet underground",
     "albumYear": 1967,
     "albumImg": "./images/velvet-underground.JPG",
+    "albumImg2": "../images/velvet-underground.JPG",
     "price": 18.99,
     "inventory": 4,
     "shape": "Good"
@@ -96,6 +104,7 @@
     "albumArtist": "Radiohead",
     "albumYear": 1997,
     "albumImg": "./images/radiohead.JPG",
+    "albumImg2": "../images/radiohead.JPG",
     "price": 17.65,
     "inventory": 3,
     "shape": "Good"
@@ -106,6 +115,7 @@
     "albumArtist": "The beatles",
     "albumYear": 1967,
     "albumImg": "./images/beatles.JPG",
+    "albumImg2": "../images/beatles.JPG",
     "price": 17.05,
     "inventory": 2,
     "shape": "Good"
