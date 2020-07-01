@@ -5,6 +5,7 @@
     "albumArtist": "Rolling Stones",
     "albumYear": 1969,
     "albumImg": "./images/rolling-stones.JPG",
+    "albumImg2": "../images/rolling-stones.JPG",
     "price": 14.22,
     "inventory": 2,
     "shape": "Medium"

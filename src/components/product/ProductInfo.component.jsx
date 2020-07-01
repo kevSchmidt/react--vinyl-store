@@ -11,7 +11,7 @@ const ProductInfo = (props) => {
       albumName,
       albumArtist,
       albumYear,
-      albumImg,
+      albumImg2,
       price,
       inventory,
       shape,
@@ -28,7 +28,7 @@ const ProductInfo = (props) => {
         </h4>
         <Tilt className="Tilt" options={{ max: 35 }}>
           <img
-            src={albumImg}
+            src={albumImg2}
             alt="poster"
             className="product-info__card--poster"
           />
