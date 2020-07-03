@@ -1,30 +1,29 @@
 .product-info {
   display: flex;
-  height: 100vh;
+  height: 96vh;
   justify-content: center;
   align-items: center;
   background: #4a3f35;
 
   &__card {
-    padding: 0 2.5rem;
-    width: 75rem;
-    height: 85vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    background: #eee;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
 
     &--title {
-      margin: 1rem auto 2.5rem;
-      font-size: 3rem;
+      font-size: 2.5rem;
+      text-align: center;
     }
 
     &--price {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
     &--quality {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
     &--inventory {
@@ -40,8 +39,18 @@
   }
 }
 
+.white-bg {
+  margin: 0 auto;
+  background: #eee;
+  height: 50rem;
+  width: 50rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Tilt {
-  margin: 2.5rem auto;
   width: 30rem;
   height: 30rem;
 }

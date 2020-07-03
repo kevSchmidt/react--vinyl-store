@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react--vinyl-store/static/css/main.14a7a3b3.chunk.css",
-    "main.js": "/react--vinyl-store/static/js/main.c214cd59.chunk.js",
-    "main.js.map": "/react--vinyl-store/static/js/main.c214cd59.chunk.js.map",
+    "main.css": "/react--vinyl-store/static/css/main.ac8a8095.chunk.css",
+    "main.js": "/react--vinyl-store/static/js/main.74dbd2d0.chunk.js",
+    "main.js.map": "/react--vinyl-store/static/js/main.74dbd2d0.chunk.js.map",
     "runtime-main.js": "/react--vinyl-store/static/js/runtime-main.304cc31e.js",
     "runtime-main.js.map": "/react--vinyl-store/static/js/runtime-main.304cc31e.js.map",
     "static/js/2.2e79ff7f.chunk.js": "/react--vinyl-store/static/js/2.2e79ff7f.chunk.js",
     "static/js/2.2e79ff7f.chunk.js.map": "/react--vinyl-store/static/js/2.2e79ff7f.chunk.js.map",
     "index.html": "/react--vinyl-store/index.html",
-    "precache-manifest.1022bdf81a17e6b1dd2b76a35df7ae65.js": "/react--vinyl-store/precache-manifest.1022bdf81a17e6b1dd2b76a35df7ae65.js",
+    "precache-manifest.dff8490fd87a4925459db29f3a28a2a2.js": "/react--vinyl-store/precache-manifest.dff8490fd87a4925459db29f3a28a2a2.js",
     "service-worker.js": "/react--vinyl-store/service-worker.js",
-    "static/css/main.14a7a3b3.chunk.css.map": "/react--vinyl-store/static/css/main.14a7a3b3.chunk.css.map",
+    "static/css/main.ac8a8095.chunk.css.map": "/react--vinyl-store/static/css/main.ac8a8095.chunk.css.map",
     "static/js/2.2e79ff7f.chunk.js.LICENSE.txt": "/react--vinyl-store/static/js/2.2e79ff7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.304cc31e.js",
     "static/js/2.2e79ff7f.chunk.js",
-    "static/css/main.14a7a3b3.chunk.css",
-    "static/js/main.c214cd59.chunk.js"
+    "static/css/main.ac8a8095.chunk.css",
+    "static/js/main.74dbd2d0.chunk.js"
   ]
 }

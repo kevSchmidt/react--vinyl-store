@@ -21,18 +21,23 @@ const ProductInfo = (props) => {
         <h2 className="product-info__card--title">
           {albumArtist} - {albumName} ({albumYear})
         </h2>
-        <h4 className="product-info__card--price"> Price: {price} € </h4>
-        <h4 className="product-info__card--quality"> Disk quality: {shape} </h4>
-        <h4 className="product-info__card--inventory">
+        <span className="product-info__card--price"> Price: {price} € </span>
+        <span className="product-info__card--quality">
+          Disk quality: {shape}
+        </span>
+        <span className="product-info__card--inventory">
           Only {inventory} remaining!
-        </h4>
-        <Tilt className="Tilt" options={{ max: 35 }}>
-          <img
-            src={albumImg2}
-            alt="poster"
-            className="product-info__card--poster"
-          />
-        </Tilt>
+        </span>
+
+        <div className="white-bg">
+          <Tilt className="Tilt" options={{ max: 35 }}>
+            <img
+              src={albumImg2}
+              alt="poster"
+              className="product-info__card--poster"
+            />
+          </Tilt>
+        </div>
       </div>
     );
   });
