@@ -31,9 +31,7 @@ export default class App extends Component {
             )}
           />
 
-          <Route path="/about" component={About}>
-            <About name="Kevin" />
-          </Route>
+          <Route path="/about" component={About} />
 
           <Route
             path={() => "/main" || "/admin" || "/any-other-word"}

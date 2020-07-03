@@ -18,7 +18,6 @@ const Product = (props) => {
 
   return (
     <React.Fragment>
-      <h1 className="section-title">RECORDS </h1>
       <div className="product">{items}</div>
     </React.Fragment>
   );
