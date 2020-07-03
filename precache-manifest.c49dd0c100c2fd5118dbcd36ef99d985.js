@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "883dbe42aae6480a46a428fd9a3afeb2",
+    "revision": "be63b2de77e3582ace5783b8798cb61a",
     "url": "/react--vinyl-store/index.html"
   },
   {
-    "revision": "fd60175cc6339c3ef7fa",
-    "url": "/react--vinyl-store/static/css/main.6639c2f0.chunk.css"
+    "revision": "1acf89c4a5f0df4f3af8",
+    "url": "/react--vinyl-store/static/css/main.60909b69.chunk.css"
   },
   {
     "revision": "9ca028160bc2ff00bf23",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react--vinyl-store/static/js/2.2e79ff7f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd60175cc6339c3ef7fa",
+    "revision": "1acf89c4a5f0df4f3af8",
     "url": "/react--vinyl-store/static/js/main.828ada00.chunk.js"
   },
   {
