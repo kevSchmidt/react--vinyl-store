@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react--vinyl-store/precache-manifest.dff8490fd87a4925459db29f3a28a2a2.js"
+  "/react--vinyl-store/precache-manifest.8c7eec00d2a87f02aa0285576a1d8eb8.js"
 );
 
 self.addEventListener('message', (event) => {
