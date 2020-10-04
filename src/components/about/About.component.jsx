@@ -9,10 +9,9 @@ const About = () => {
         className="about"
         style={{ background: "url(./images/vinyl-bg.jpg)" }}
       >
-        {/* ======== About === */}
         <h1 className="about__title">About our store</h1>
+
         <div className="about-flex-container">
-          {/* ---- Information ---- */}
           <div className="about__info">
             <h2 className="about__info--title">Quality is important!</h2>
             <p className="about__info--text">
@@ -25,7 +24,6 @@ const About = () => {
               facilis culpa sint, ab ad.
             </p>
 
-            {/* ---- Reviews ---- */}
             <div className="about__info--review">
               MARTIN: "Lorem ipsum dolor , adipisicing elit. Iste tempore
               laborum aperiam." <br />
@@ -35,9 +33,14 @@ const About = () => {
             </div>
           </div>
 
-          {/* ---- Contact ---- */}
           <div className="about__contact">
             <h2 className="about__contact--title">CONTACT US</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. In porro
+              ex hic earum, beatae impedit consequuntur suscipit doloremque
+              totam nihil magnam veritatis omnis non harum et fugit sed error
+              tempore.
+            </p>
           </div>
         </div>
 

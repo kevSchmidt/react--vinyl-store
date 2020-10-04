@@ -1,9 +1,11 @@
+@import "../../scss/var";
+
 .product {
   padding-top: 2.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background: #4a3f35;
+  background: $color-primary;
 
   &__card {
     display: flex;
@@ -12,7 +14,7 @@
     margin: 2rem 1rem;
     height: 26rem;
     border-radius: 5px;
-    background: #fa7d09;
+    background: $color-secondary;
     box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.6);
     transition: all 0.4s;
 
@@ -29,7 +31,7 @@
 
     &--title {
       margin-top: 1.2rem;
-      color: #fff;
+      color: $color-white;
       text-transform: uppercase;
       font-weight: 700;
       text-shadow: 1px 1px 2px black;

@@ -13,22 +13,16 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
-        {/* ======== Navigation === */}
         <Menu />
-
-        {/* ======== Routes === */}
         <Switch>
-          {/* ---- home ---- */}
           <Route path="/" exact component={Home} />
 
-          {/* ---- product ---- */}
           <Route
             path="/product"
             exact
             component={() => <Product data={Data} />}
           />
 
-          {/* ---- product info ---- */}
           <Route
             path="/product/:id"
             component={({ match }) => (
@@ -36,7 +30,6 @@ export default class App extends Component {
             )}
           />
 
-          {/* ---- about ---- */}
           <Route path="/about" component={About} />
         </Switch>
       </BrowserRouter>

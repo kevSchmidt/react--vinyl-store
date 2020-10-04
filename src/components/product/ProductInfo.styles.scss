@@ -1,33 +1,47 @@
+@import "../../scss/var";
+
 .product-info {
   display: flex;
-  height: 96vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  background: #4a3f35;
+  background: $color-primary;
+  overflow: hidden;
 
   &__card {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
-    color: #fff;
+    color: $color-white;
     text-shadow: 1px 1px 2px black;
+    position: relative;
 
     &--title {
+      margin: 3rem 0 1rem;
       font-size: 2.5rem;
       text-align: center;
+      color: $color-secondary;
     }
 
     &--price {
       font-size: 1rem;
+      position: absolute;
+      top: 5rem;
+      left: 2rem;
     }
 
     &--quality {
       font-size: 1rem;
+      position: absolute;
+      top: 7rem;
+      left: 2rem;
     }
 
     &--inventory {
       font-style: italic;
+      position: absolute;
+      top: 9rem;
+      left: 2rem;
     }
 
     &--poster {
@@ -41,8 +55,8 @@
 
 .white-bg {
   margin: 0 auto;
-  background: #eee;
-  border: 5px solid #fa7d09;
+  background: $color-white;
+  border: 5px solid $color-secondary;
   height: 50rem;
   width: 50rem;
   border-radius: 50%;

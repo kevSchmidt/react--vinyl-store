@@ -6,6 +6,7 @@ import "./Product.styles.scss";
 const Product = (props) => {
   const items = props.data.map((item) => {
     const { id, albumName, albumImg } = item;
+
     return (
       <Link to={`/product/${id}`}>
         <div key={id} className="product__card">
