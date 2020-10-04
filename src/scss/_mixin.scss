@@ -1,0 +1,22 @@
+// ======== FLEX BOX ===
+@mixin u-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin u-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin u-flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@mixin u-flex-column {
+  display: flex;
+  flex-direction: column;
+}

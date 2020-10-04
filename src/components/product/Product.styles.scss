@@ -1,20 +1,19 @@
 @import "../../scss/var";
+@import "../../scss/mixin";
 
 .product {
+  background: $color__primary;
+  @include u-flex-evenly;
   padding-top: 2.5rem;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  background: $color-primary;
 
   &__card {
-    display: flex;
-    flex-direction: column;
+    background: $color__secondary;
+    @include u-flex-column;
     align-items: center;
     margin: 2rem 1rem;
     height: 26rem;
     border-radius: 5px;
-    background: $color-secondary;
     box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.6);
     transition: all 0.4s;
 
@@ -30,10 +29,10 @@
     }
 
     &--title {
+      color: $color__white;
+      font-weight: $font-weight__bold;
       margin-top: 1.2rem;
-      color: $color-white;
       text-transform: uppercase;
-      font-weight: 700;
       text-shadow: 1px 1px 2px black;
     }
   }
