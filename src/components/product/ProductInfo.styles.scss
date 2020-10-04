@@ -18,36 +18,44 @@
 
     &--title {
       margin: 3rem 0 1rem;
-      font-size: 2.5rem;
+      font-size: 3.2rem;
       text-align: center;
       color: $color-secondary;
     }
 
     &--price {
-      font-size: 1rem;
+      font-size: 1.8rem;
       position: absolute;
-      top: 5rem;
-      left: 2rem;
+      top: 16rem;
+      left: 20rem;
+    }
+
+    &--year {
+      font-size: 1.8rem;
+      position: absolute;
+      top: 18rem;
+      left: 18rem;
     }
 
     &--quality {
-      font-size: 1rem;
+      font-size: 1.8rem;
       position: absolute;
-      top: 7rem;
-      left: 2rem;
+      top: 20rem;
+      left: 16rem;
     }
 
     &--inventory {
+      font-size: 1.8rem;
       font-style: italic;
       position: absolute;
-      top: 9rem;
-      left: 2rem;
+      top: 22rem;
+      left: 14rem;
     }
 
     &--poster {
       width: 34rem;
       border-radius: 5px;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
       cursor: pointer;
     }
   }

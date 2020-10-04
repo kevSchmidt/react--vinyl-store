@@ -20,10 +20,11 @@ const ProductInfo = (props) => {
     return (
       <div key={id} className="product-info__card">
         <h2 className="product-info__card--title">
-          {albumArtist} - {albumName} ({albumYear})
+          {albumArtist} - {albumName}
         </h2>
 
         <span className="product-info__card--price"> Price: {price} € </span>
+        <span className="product-info__card--year"> Year: {albumYear} </span>
         <span className="product-info__card--quality">Quality: {shape}</span>
         <span className="product-info__card--inventory">
           Only {inventory} remaining!

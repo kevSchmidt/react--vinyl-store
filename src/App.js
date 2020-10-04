@@ -20,7 +20,7 @@ export default class App extends Component {
           <Route
             path="/product"
             exact
-            component={() => <Product data={Data} />}
+            component={() => <Product data={Data} key={Data.id} />}
           />
 
           <Route
